@@ -1,4 +1,4 @@
-import labels from './labels.json'
+import labels from '../constants/labels.json'
 
 export const renderBoxes = (
   canvasRef: HTMLCanvasElement,

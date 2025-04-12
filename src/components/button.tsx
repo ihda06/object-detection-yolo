@@ -1,4 +1,4 @@
-import { cn } from "../utils";
+import { cn } from "../utils/utils";
 
 type ButtonProps = {
   children: React.ReactNode;

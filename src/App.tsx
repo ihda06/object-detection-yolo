@@ -5,8 +5,7 @@ import "./App.css";
 import * as tf from "@tensorflow/tfjs";
 import Button from "./components/button";
 
-import { DisplayRealtime, DisplayUpload } from "./components/Display";
-// import useCamera from "./useCamera";
+import { DisplayRealtime, DisplayUpload } from "./components/display";
 
 function App() {
   const [loading, setLoading] = useState({ loading: true, progress: 0 });

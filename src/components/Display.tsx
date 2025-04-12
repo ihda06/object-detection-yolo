@@ -1,8 +1,8 @@
 import * as tf from "@tensorflow/tfjs";
 import { useEffect, useRef, useState } from "react";
-import { detect2, detectVideo } from "../detect";
-import useCamera from "../useCamera";
-import { cn } from "../utils";
+import { detect2, detectVideo } from "../utils/detect";
+import useCamera from "../hooks/useCamera";
+import { cn } from "../utils/utils";
 import Button from "./button";
 
 export const DisplayRealtime = ({
